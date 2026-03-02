@@ -1,0 +1,13 @@
+-------------------------
+|        Titre          |  ← QVBoxLayout
+-------------------------
+| B1 | B2 | B3 | B4     |  ← QHBoxLayout
+-------------------------
+
+Donc :
+
+Layout principal = Vertical
+
+Layout secondaire = Horizontal
+
+Le layout horizontal est ajouté dans le vertical

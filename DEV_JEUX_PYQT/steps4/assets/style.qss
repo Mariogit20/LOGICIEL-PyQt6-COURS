@@ -1,0 +1,15 @@
+QMainWindow {
+    background: qlineargradient(
+        x1: 0, y1: 0,    /* début du gradient (coin haut-gauche) */
+        x2: 1, y2: 1,    /* fin du gradient (coin bas-droit) */
+        stop: 0 #141e30, /* couleur de départ */
+        stop: 1 #243b55  /* couleur de fin */
+    );
+}
+
+QLabel[class="labelPrimary"] {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+}

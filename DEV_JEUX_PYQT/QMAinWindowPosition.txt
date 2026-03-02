@@ -1,0 +1,4 @@
+| Zone         | Widget correspondant | Notes                                             |
+| ------------ | -------------------- | ------------------------------------------------- |
+| Central      | `setCentralWidget()` | Le contenu principal de ta fenêtre                |
+

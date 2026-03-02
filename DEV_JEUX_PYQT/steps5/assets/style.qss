@@ -1,0 +1,52 @@
+/* ----------------- */
+/* Fond dégradé fenêtre principale */
+/* ----------------- */
+QMainWindow {
+    background: qlineargradient(
+        x1: 0, y1: 0,
+        x2: 1, y2: 1,
+        stop: 0 #141e30,
+        stop: 1 #243b55
+    );
+}
+
+/* ----------------- */
+/* Labels du formulaire */
+/* ----------------- */
+QLabel[class=formLabel] {
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;       /* blanc pour contraster avec le fond sombre */
+}
+
+/* ----------------- */
+/* Champs texte QLineEdit */
+/* ----------------- */
+QLineEdit[class=formInput] {
+    height: 25px;
+    font-size: 14px;
+    padding: 3px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* ----------------- */
+/* Bouton Login */
+/* ----------------- */
+QPushButton[class=formButton] {
+    min-width: 100px;
+    max-width: 150px;
+    height: 30px;
+    background-color: #007ACC;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Effet hover sur le bouton */
+QPushButton[class=formButton]:hover {
+    background-color: #005999;
+    cursor: pointer;
+}

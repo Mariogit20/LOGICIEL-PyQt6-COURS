@@ -1,0 +1,10 @@
+--Les Widgets les PLUS importants à connaître :
+
+| Widget      | Sert à                       |
+| ----------- | ---------------------------- |
+| QPushButton | Bouton                       |
+| QLabel      | Texte / Image                |
+| QLineEdit   | Champ de texte               |
+| QVBoxLayout | Organisation verticale       |
+| QHBoxLayout | Organisation horizontale     |
+| QGridLayout | Grille (important pour jeux) |
