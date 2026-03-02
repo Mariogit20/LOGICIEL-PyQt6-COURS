@@ -1,0 +1,56 @@
+/* --- Fond de la fenêtre principale --- */
+QWidget {
+    background-color: #000000;
+}
+
+/* --- Écran d'affichage (QLineEdit) --- */
+QLineEdit {
+    background-color: transparent;
+    border: none;
+    font-size: 55px;
+    color: #ffffff;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+/* --- Style de base pour TOUS les boutons --- */
+QPushButton {
+    font-size: 26px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px; /* Rend les boutons de 60x60 parfaitement ronds */
+    color: #ffffff;
+}
+
+/* --- Boutons Chiffres (0 à 9) --- */
+QPushButton[class="chiffre"] { 
+    background-color: #333333; 
+}
+QPushButton[class="chiffre"]:hover { 
+    background-color: #555555; 
+}
+QPushButton[class="chiffre"]:pressed { 
+    background-color: #777777; 
+}
+
+/* --- Boutons Opérateurs (/, *, -, +, =) --- */
+QPushButton[class="operateur"] { 
+    background-color: #ff9f0a; 
+}
+QPushButton[class="operateur"]:hover { 
+    background-color: #ffb340; 
+}
+QPushButton[class="operateur"]:pressed { 
+    background-color: #cc7f08; 
+}
+
+/* --- Bouton Effacer ("C") --- */
+QPushButton[class="effacer"] { 
+    background-color: #ff3b30; 
+}
+QPushButton[class="effacer"]:hover { 
+    background-color: #ff6961; 
+}
+QPushButton[class="effacer"]:pressed { 
+    background-color: #cc2f26; 
+}

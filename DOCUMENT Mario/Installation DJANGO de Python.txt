@@ -20,7 +20,7 @@ auto-py-to-exe (mamadika.exe)
 
 ::::web ::::
 Django
-Strike
+Stripe
 python-dotenv
 
 :::Mobil:::
