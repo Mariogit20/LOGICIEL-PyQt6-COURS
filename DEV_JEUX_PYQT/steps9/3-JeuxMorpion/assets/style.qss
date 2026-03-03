@@ -1,0 +1,115 @@
+QMainWindow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #0f0c29, stop:0.5 #302b63, stop:1 #24243e);
+}
+
+QLabel {
+    color: #e2e8f0;
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+QLabel#titre {
+    font-size: 26px;
+    font-weight: 800;
+    color: #f8fafc;
+    letter-spacing: 1px;
+}
+
+QLabel#resultat {
+    font-size: 17px;
+    color: #cbd5e1;
+    font-weight: 500;
+}
+
+QLabel#score {
+    font-size: 20px;
+    font-weight: 700;
+    color: #7dd3fc;
+    letter-spacing: 2px;
+}
+
+QFrame#separator {
+    color: #334155;
+    background-color: #334155;
+    border: none;
+    max-height: 2px;
+}
+
+/* ── Boutons de mode ── */
+QPushButton#btnMode {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #4f46e5, stop:1 #7c3aed);
+    color: #f8fafc;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 14px;
+    border: 2px solid #6366f1;
+    padding: 4px 12px;
+}
+QPushButton#btnMode:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #6366f1, stop:1 #a855f7);
+    border-color: #a5b4fc;
+}
+QPushButton#btnMode:pressed {
+    background: #3730a3;
+}
+
+/* ── Bouton Pierre ── */
+QPushButton#btnPierre {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #0ea5e9, stop:1 #0284c7);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 14px;
+    border: 2px solid #38bdf8;
+}
+QPushButton#btnPierre:hover  { background: #38bdf8; }
+QPushButton#btnPierre:pressed { background: #0369a1; }
+
+/* ── Bouton Papier ── */
+QPushButton#btnPapier {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #10b981, stop:1 #059669);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 14px;
+    border: 2px solid #34d399;
+}
+QPushButton#btnPapier:hover  { background: #34d399; }
+QPushButton#btnPapier:pressed { background: #047857; }
+
+/* ── Bouton Ciseaux ── */
+QPushButton#btnCiseaux {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #f59e0b, stop:1 #d97706);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 14px;
+    border: 2px solid #fbbf24;
+}
+QPushButton#btnCiseaux:hover  { background: #fbbf24; }
+QPushButton#btnCiseaux:pressed { background: #b45309; }
+
+/* ── Bouton Retour ── */
+QPushButton#btnRetour {
+    background: transparent;
+    color: #94a3b8;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid #475569;
+    padding: 4px 10px;
+}
+QPushButton#btnRetour:hover {
+    color: #f1f5f9;
+    border-color: #94a3b8;
+    background: rgba(148, 163, 184, 0.12);
+}
+QPushButton#btnRetour:pressed {
+    background: rgba(148, 163, 184, 0.22);
+}

@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import QMainWindow, QLabel
+from PyQt6.QtWidgets import QMainWindow, QLabel, QVBoxLayout, QPushButton, QWidget
 from PyQt6.QtGui import QIcon
 import os
 
@@ -8,7 +8,6 @@ class App(QMainWindow):
         self.setup_window()
         self.load_icon()
         self.load_style()
-        self.add_welcome_message()
     
     # ----------------------
     # Configuration de la fenêtre
@@ -37,11 +36,3 @@ class App(QMainWindow):
                 self.setStyleSheet(f.read())
         else:
             print("Fichier style introuvable :", style_path)
-            
-    # ----------------------
-    # Ajouter le message de bienvenue
-    # ----------------------
-    def add_welcome_message(self):
-        welcome_label = QLabel("Bienvenue dans votre ToDo List !", self)
-        welcome_label.setStyleSheet("color: white;")
-        welcome_label.adjustSize()  # ajuste la taille automatiquement

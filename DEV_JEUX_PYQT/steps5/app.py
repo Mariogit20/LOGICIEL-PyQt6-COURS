@@ -82,7 +82,7 @@ class App(QMainWindow):
         grid.addWidget(input_password, 2, 1)
 
         # Bouton centré sur 2 colonnes
-        grid.addWidget(button_login, 3, 0, 1, 2, alignment=Qt.AlignmentFlag.AlignCenter)
+        grid.addWidget(button_login, 3, 0, 1, 2 ,alignment=Qt.AlignmentFlag.AlignCenter)
 
         # Centrer toute la grille
         grid.setAlignment(Qt.AlignmentFlag.AlignCenter)

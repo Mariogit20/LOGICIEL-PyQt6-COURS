@@ -1,14 +1,18 @@
-from PyQt6.QtWidgets import QMainWindow, QPushButton, QVBoxLayout, QWidget, QLabel
+from PyQt6.QtWidgets import QMainWindow, QLabel, QVBoxLayout, QPushButton, QWidget
 from PyQt6.QtGui import QIcon
 import os
 
 class App(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.counter = 0
+        
         self.setup_window()
         self.load_icon()
         self.load_style()
-        self.action_boutton()
+        self.counter_ui()
+        
+        
     
     # ----------------------
     # Configuration de la fenêtre
@@ -38,36 +42,37 @@ class App(QMainWindow):
         else:
             print("Fichier style introuvable :", style_path)
             
-    # ----------------------
-    # Ajouter le message de bienvenue
-    # ----------------------
-    def action_boutton(self):
+    def counter_ui(self):
+        main_layout = QVBoxLayout()
         layout = QVBoxLayout()
         
-        # Création du label comme attribut de la classe
-        self.label = QLabel("Bienvenue dans votre Application !")
-        self.label.setProperty("class", "formLabel")
+        self.label = QLabel(f"Counter: {self.counter}")
         
-        # Création du bouton
-        button = QPushButton("Boutton")
-        button.setProperty("class", "button")
+        main_layout.addWidget(self.label)
         
-        # Connexion du signal clicked à une méthode
-        button.clicked.connect(self.bouton_clicked)
+        button1 = QPushButton("+")
+        button1.clicked.connect(self.increment)
         
-        layout.addWidget(self.label)
-        layout.addWidget(button)
+        button2 = QPushButton("-")
+        button2.clicked.connect(self.decrement)
         
-        Widget = QWidget(self)
-        Widget.setLayout(layout)
+        layout.addWidget(button1)
+        layout.addWidget(button2)
         
+        main_layout.addLayout(layout)
+        
+        Widget = QWidget()
+        Widget.setLayout(main_layout)
         self.setCentralWidget(Widget)
         
-    # ----------------------
-    # Méthode appelée lorsque le bouton est cliqué
-    # ----------------------
-    def bouton_clicked(self):
-        print("Le bouton a été cliqué !")
-        print(self.label.text())
+    def increment(self):
+        self.counter += 1
+        self.label.setText(f"Counter: {self.counter}")
         
-        self.label.setText("Hello World !")
+    def decrement(self):
+        if self.counter > 0:
+            self.counter -= 1
+            self.label.setText(f"Counter: {self.counter}")
+
+            
+    

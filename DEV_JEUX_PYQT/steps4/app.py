@@ -16,7 +16,7 @@ class App(QMainWindow):
     # ----------------------
     def setup_window(self):
         self.setWindowTitle("My Application")
-        self.setFixedSize(1000, 400)
+        # self.setFixedSize(1000, 400)
     
     # ----------------------
     # Charger l’icône sut le fichier
@@ -49,7 +49,7 @@ class App(QMainWindow):
         label = QLabel("Hello World !")
         label.setProperty("class", "labelPrimary")
         
-        main_layout.addWidget(label, alignment=Qt.AlignmentFlag.AlignCenter)
+        
         
         # Layout horizontal pour les boutons
         horizontal_layout = QHBoxLayout()
@@ -73,6 +73,8 @@ class App(QMainWindow):
         
         # On ajoute le layout horizontal dans le vertical
         main_layout.addLayout(horizontal_layout)
+        
+        main_layout.addWidget(label, alignment=Qt.AlignmentFlag.AlignBottom)
 
         # On applique le layout principal au widget central
         Widget = QWidget(self)

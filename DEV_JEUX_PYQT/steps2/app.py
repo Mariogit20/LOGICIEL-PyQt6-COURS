@@ -16,7 +16,7 @@ class App(QMainWindow):
     # ----------------------
     def setup_window(self):
         self.setWindowTitle("My Application")
-        self.setFixedSize(1000, 400)
+        # self.setFixedSize(1000, 400)
     
     # ----------------------
     # Charger l’icône sut le fichier
@@ -50,6 +50,7 @@ class App(QMainWindow):
         # class pour styliser dans qss
         button1.setObjectName("buttonPrimary")
         
+        
         button2 = QPushButton("Button 2")
         button2.setProperty("class", "button")
         
@@ -60,10 +61,11 @@ class App(QMainWindow):
         button4.setProperty("class", "button")
         
         # Ajout des widgets
+        layoutvertical.addWidget(button4)
         layoutvertical.addWidget(button2)
         layoutvertical.addWidget(button1)
         layoutvertical.addWidget(button3)
-        layoutvertical.addWidget(button4)
+        
         
         self.setLayout(layoutvertical)
         
