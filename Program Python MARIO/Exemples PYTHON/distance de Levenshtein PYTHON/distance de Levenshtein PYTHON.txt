@@ -1,0 +1,5 @@
+La distance de Levenshtein, ou distance d'édition, est une mesure de la similarité entre deux chaînes de caractères. Elle est égale au nombre minimal de modifications (insertions, suppressions ou substitutions) de caractères nécessaires pour transformer une chaîne en une autre.
+
+
+# La distance de Levenshtein entre 'niche' et 'chien' est : 4
+# La distance de Levenshtein entre 'intention' et 'execution' est : 5

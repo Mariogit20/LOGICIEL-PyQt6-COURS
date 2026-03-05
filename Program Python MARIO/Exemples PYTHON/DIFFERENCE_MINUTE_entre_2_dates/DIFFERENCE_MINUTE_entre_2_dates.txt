@@ -1,0 +1,24 @@
+# Bien sûr ! Voici une fonction Python simple qui calcule la différence en minutes entre deux dates données :
+
+from datetime import datetime
+
+def difference_en_minutes(date1_str, date2_str, format_str="%Y-%m-%d %H:%M"):
+    date1 = datetime.strptime(date1_str, format_str)
+    date2 = datetime.strptime(date2_str, format_str)
+    difference = date2 - date1
+    return int(difference.total_seconds() // 60)
+
+# Exemple d’utilisation
+# date1 = "2025-04-14 13:25"
+# date2 = "2025-07-12 18:11"
+# La différence est de 128446 minutes.
+
+# date1 = "2025-04-14 13:25"
+# date2 = "2025-04-13 13:25"
+# La différence est de -1440 minutes.
+
+date1 = "2025-04-14 13:25"
+date2 = "2025-04-13 13:25"
+
+resultat = difference_en_minutes(date1, date2)
+print(f"La différence est de {resultat} minutes.")    

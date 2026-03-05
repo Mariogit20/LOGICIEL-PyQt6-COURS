@@ -1,0 +1,22 @@
+# Parfait ! Voici une version de la fonction qui retourne la différence entre deux dates en jours, heures et minutes :
+
+from datetime import datetime
+
+def difference_detaillée(date1_str, date2_str, format_str="%Y-%m-%d %H:%M"):
+    date1 = datetime.strptime(date1_str, format_str)
+    date2 = datetime.strptime(date2_str, format_str)
+    delta = date2 - date1
+
+    total_minutes = int(delta.total_seconds() // 60)
+    jours = total_minutes // (24 * 60)
+    heures = (total_minutes % (24 * 60)) // 60
+    minutes = total_minutes % 60
+
+    return jours, heures, minutes
+
+# Exemple d’utilisation
+date1 = "2025-04-14 13:25"
+date2 = "2025-07-12 18:11"
+
+jours, heures, minutes = difference_detaillée(date1, date2)
+print(f"La différence est de {jours} jours, {heures} heures et {minutes} minutes.")
