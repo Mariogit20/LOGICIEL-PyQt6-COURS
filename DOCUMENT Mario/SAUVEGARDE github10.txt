@@ -1,0 +1,148 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "cryptage CHACHA20 pur"
+[main b7294f6] cryptage CHACHA20 pur
+ 14 files changed, 54153 insertions(+), 53 deletions(-)
+ create mode 100644 DOCUMENT Mario/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go
+Vers2.mkv
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go Vers2.docx
+"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go Vers2.pdf"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/dist/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go Vers2
+.exe"
+ delete mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/dist/ma_cle_chacha20.key"
+ create mode 100644 Program Python MARIO/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_2
+56_Go EXE WINDOWS.docx
+ create mode 100644 Program Python MARIO/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_2
+56_Go EXE WINDOWS.pdf
+ create mode 100644 Program Python MARIO/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_2
+56_Go.docx
+ create mode 100644 Program Python MARIO/SAUVEGARDE github.txt
+ create mode 100644 Program Python MARIO/github - GITHUB vers ORDI - MAJ d un DO
+SSIER sur ORDI depuis Github AVEC git pull.txt
+ create mode 100644 Program Python MARIO/github - ORDINATEUR vers GITHUB - SAUVE
+GARDE DANS github.txt
+ create mode 100644 Program Python MARIO/ma_cle_chacha20.key
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Uploading LFS objects:   0% (0/1), 0 B | 229 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ # Force l'envoi d'un seul fichier à la fois au lieu de 3 par défaut
+git config lfs.concurrenttransfers 1
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git config http.sslVerify false
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git remote set-url origin git@github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git  
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ # 1. On retire la clé du futur envoi
+git rm --cached "Program Python MARIO/ma_cle_chacha20.key"
+
+# 2. On valide ce retrait
+git commit --amend --no-edit
+rm 'Program Python MARIO/ma_cle_chacha20.key'
+[main d575b72] cryptage CHACHA20 pur
+ Date: Fri Mar 13 09:25:37 2026 +0300
+ 13 files changed, 54151 insertions(+), 53 deletions(-)
+ create mode 100644 DOCUMENT Mario/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go
+Vers2.mkv
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go Vers2.docx
+"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go Vers2.pdf"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/dist/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go Vers2
+.exe"
+ delete mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/dist/ma_cle_chacha20.key"
+ create mode 100644 Program Python MARIO/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_2
+56_Go EXE WINDOWS.docx
+ create mode 100644 Program Python MARIO/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_2
+56_Go EXE WINDOWS.pdf
+ create mode 100644 Program Python MARIO/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_2
+56_Go.docx
+ create mode 100644 Program Python MARIO/SAUVEGARDE github.txt
+ create mode 100644 Program Python MARIO/github - GITHUB vers ORDI - MAJ d un DO
+SSIER sur ORDI depuis Github AVEC git pull.txt
+ create mode 100644 Program Python MARIO/github - ORDINATEUR vers GITHUB - SAUVE
+GARDE DANS github.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git config lfs.concurrenttransfers 1
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git config --global http.postBuffer 524288000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git lfs push origin main
+Uploading LFS objects:   0% (0/1), 0 B | 70 KB/s, done.
+batch response: Post "https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS.git/inf
+o/lfs/objects/batch": dial tcp: lookup github.com: no such host
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git lfs push origin main
+Uploading LFS objects: 100% (1/1), 407 MB | 288 KB/s, done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push origin main
+Uploading LFS objects: 100% (1/1), 407 MB | 0 B/s, done.
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 41.06 MiB | 37.00 KiB/s, done.
+Total 13 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+   da6491b..d575b72  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "cryptage CHACHA20 pur 2"
+[main 23c2c22] cryptage CHACHA20 pur 2
+ 1 file changed, 2 insertions(+)
+ create mode 100644 Program Python MARIO/ma_cle_chacha20.key
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 396 bytes | 396.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+   d575b72..23c2c22  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "cryptage CHACHA20 pur 3"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$
