@@ -1,0 +1,41 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "sauvegarde github"
+[main b26119a] sauvegarde github
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Program Python MARIO/APP ANDROID Python Coding/PYTHON TRACER
+ COURBES.docx
+ create mode 100644 Program Python MARIO/APP ANDROID Python Coding/PYTHON TRACER
+ COURBES.pdf
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 135.48 KiB | 440.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+   840a3aa..b26119a  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "sauvegarde github 2"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$
