@@ -1,0 +1,14 @@
+PYTHON
+A] Machine Learning - Decision Tree
+
+https://www.w3schools.com/python/python_ml_decision_tree.asp
+https://www.w3schools.com/python/python_ml_decision_tree.asp
+
+
+B] Machine Learning - Linear Regression
+
+https://www.w3schools.com/python/python_ml_linear_regression.asp
+https://www.w3schools.com/python/python_ml_linear_regression.asp
+
+
+
