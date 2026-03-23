@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche avec Surlignage et Levenshtein</title>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        /* --- CSS : Le Style et la Mise en page --- */
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        /* En-tête */
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background: white;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .logo-text { font-size: 28px; color: #1a4f8b; font-style: italic; font-weight: bold; margin-right: 40px; }
+        .nav-top a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; font-size: 13px; text-transform: uppercase; }
+
+        .search-form { display: flex; margin-left: 30px; }
+        .search-form input { padding: 8px 12px; border: 1px solid #ccc; width: 250px; }
+        .search-form button { background-color: #ff5722; color: white; border: none; padding: 8px 15px; font-weight: bold; cursor: pointer; }
+
+        /* Structure principale */
+        .container { display: flex; max-width: 1300px; margin: 30px auto; align-items: flex-start; }
+
+        aside.col-gauche { width: 20%; padding-right: 20px; }
+        .menu-accordeon { list-style: none; padding: 0; margin: 0; }
+        .menu-accordeon li { padding: 8px 0; font-size: 14px; cursor: pointer; display: flex; justify-content: space-between; }
+        .fleche { font-size: 10px; color: #888; }
+
+        main.col-centre { width: 60%; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.05); min-height: 600px; padding-bottom: 20px;}
+        .en-tete-article { background-color: #004080; color: white; padding: 20px 30px; }
+        .en-tete-article h1 { margin: 0; font-size: 24px; font-weight: normal; }
+        
+        .contenu-article { padding: 30px; }
+        .article-item { border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 20px; }
+        .article-item h2 { color: #1a4f8b; font-size: 20px; margin-top: 0; }
+        
+        aside.col-droite { width: 20%; padding-left: 30px; }
+        .col-droite h3 { color: #1a4f8b; font-size: 16px; margin-top: 0; }
+        .col-droite ul { list-style: none; padding: 0; }
+        .col-droite li { margin-bottom: 15px; font-size: 13px; cursor: pointer; }
+
+        /* --- CLASSE POUR LE SURLIGNAGE --- */
+        .surligne {
+            background-color: #fff700;
+            font-weight: bold;
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <span class="logo-text">Ressources chrétiennes</span>
+        <nav class="nav-top">
+            <a href="#">Accueil</a>
+            <a href="#">Parcourir</a>
+        </nav>
+        <form class="search-form" id="form-recherche">
+            <input type="text" id="champ-recherche" placeholder="Indiquer les termes à rechercher">
+            <button type="submit">RECHERCHER</button>
+        </form>
+    </header>
+
+    <div class="container">
+        
+        <aside class="col-gauche">
+            <ul class="menu-accordeon">
+                <li>Ancien Testament <span class="fleche">▶</span></li>
+                <li>Nouveau Testament <span class="fleche">▶</span></li>
+            </ul>
+        </aside>
+
+        <main class="col-centre">
+            <div class="en-tete-article">
+                <h1 id="titre-resultats">Liste des articles</h1>
+            </div>
+            
+            <div class="contenu-article" id="zone-articles">
+                
+                <div class="article-item">
+                    <h2>Les guérisons opérées par Jésus</h2>
+                    <p>Cet article a pour sujet les guérisons opérées par Jésus qui sont des miracles attestant sa divinité et son autorité, et démontrant sa compassion envers les malades et les malheureux, et sa victoire sur le mal et sur Satan.</p>
+                </div>
+
+                <div class="article-item">
+                    <h2>Hébreux 11 - La vraie foi</h2>
+                    <p>Cette prédication sur Hébreux 11.1-2 a pour sujet la vraie foi, sa puissance et sa richesse. Elle est une certitude concernant l'avenir et nous permet de voir l'invisible.</p>
+                </div>
+
+                <div class="article-item">
+                    <h2>Pourquoi étudier une confession de foi?</h2>
+                    <p>Cet article a pour sujet les raisons d'étudier une confession de foi et explique la nature et l'utilité d'une confession. La foi dans nos cœurs s'exprime par notre bouche.</p>
+                </div>
+
+                <div class="article-item">
+                    <h2>Le miracle de la beauté</h2>
+                    <p>Une réflexion sur la création et la manière dont la nature reflète la grandeur divine dans notre monde moderne.</p>
+                </div>
+                
+                <p id="aucun-resultat" style="display: none; color: red; font-weight: bold;">Aucun article ne contient ce terme.</p>
+            </div>
+        </main>
+
+        <aside class="col-droite">
+            <h3>Articles recommandés</h3>
+            <ul>
+                <li>Le Nouvel Âge</li>
+                <li>Le miracle de la beauté</li>
+            </ul>
+        </aside>
+
+    </div>
+
+    <script>
+        // 1. Algorithme de calcul de la distance de Levenshtein
+        function levenshtein(a, b) {
+            if (a.length === 0) return b.length;
+            if (b.length === 0) return a.length;
+            
+            let matrice = [];
+            
+            for (let i = 0; i <= b.length; i++) { matrice[i] = [i]; }
+            for (let j = 0; j <= a.length; j++) { matrice[0][j] = j; }
+            
+            for (let i = 1; i <= b.length; i++) {
+                for (let j = 1; j <= a.length; j++) {
+                    if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                        matrice[i][j] = matrice[i - 1][j - 1];
+                    } else {
+                        matrice[i][j] = Math.min(
+                            matrice[i - 1][j - 1] + 1, // Substitution
+                            Math.min(
+                                matrice[i][j - 1] + 1, // Insertion
+                                matrice[i - 1][j] + 1  // Suppression
+                            )
+                        );
+                    }
+                }
+            }
+            return matrice[b.length][a.length];
+        }
+
+        $(document).ready(function() {
+            
+            $('#form-recherche').on('submit', function(e) {
+                e.preventDefault(); 
+                
+                let terme = $('#champ-recherche').val().trim().toLowerCase();
+                let resultatsTrouves = 0;
+
+                // 2. Nettoyage des anciens surlignages
+                $('.article-item h2, .article-item p').each(function() {
+                    $(this).text($(this).text()); 
+                });
+
+                // Si la recherche est vide, on réinitialise l'affichage
+                if (terme === "") {
+                    $('.article-item').show();
+                    $('#titre-resultats').text('Liste des articles');
+                    $('#aucun-resultat').hide();
+                    return;
+                }
+
+                // 3. Définition de la tolérance d'erreur selon la longueur du mot
+                let tolerance = 0;
+                if (terme.length >= 4 && terme.length <= 6) tolerance = 1;
+                if (terme.length > 6) tolerance = 2;
+
+                // Regex pour isoler les mots (incluant les lettres accentuées)
+                let regexMots = /[a-zA-ZÀ-ÿ0-9]+/g;
+
+                // 4. Parcours et filtrage des articles
+                $('.article-item').each(function() {
+                    let articleActuel = $(this);
+                    let correspondanceTrouvee = false;
+
+                    articleActuel.find('h2, p').each(function() {
+                        let elementHtml = $(this);
+                        let texteOriginal = elementHtml.text();
+                        
+                        // Analyse mot par mot
+                        let nouveauHtml = texteOriginal.replace(regexMots, function(motCourant) {
+                            let motMinuscule = motCourant.toLowerCase();
+                            
+                            // Comparaison avec Levenshtein
+                            if (levenshtein(motMinuscule, terme) <= tolerance) {
+                                correspondanceTrouvee = true;
+                                return "<span class='surligne'>" + motCourant + "</span>";
+                            }
+                            return motCourant; 
+                        });
+
+                        elementHtml.html(nouveauHtml);
+                    });
+
+                    // 5. Affichage ou masquage de l'article
+                    if (correspondanceTrouvee) {
+                        articleActuel.show();
+                        resultatsTrouves++;
+                    } else {
+                        articleActuel.hide();
+                    }
+                });
+
+                // 6. Mise à jour des compteurs et messages
+                if (resultatsTrouves === 0) {
+                    $('#aucun-resultat').show();
+                    $('#titre-resultats').text('Aucun résultat pour : ' + terme);
+                } else {
+                    $('#aucun-resultat').hide();
+                    $('#titre-resultats').text(resultatsTrouves + ' résultat(s) pour : ' + terme);
+                }
+            });
+
+        });
+    </script>
+</body>
+</html>
