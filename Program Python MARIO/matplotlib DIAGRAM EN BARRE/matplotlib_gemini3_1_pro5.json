@@ -1,0 +1,42 @@
+{
+    "_Metadata": {
+        "date_collecte": "05/04/2026 à 11:30:00"
+    },
+    "Pingouins": {
+        "categories": ["Adelie", "Chinstrap", "Gentoo"],
+        "donnees": {
+            "Profondeur du bec": [18.35, 18.43, 14.98],
+            "Longueur du bec": [38.79, 48.83, 47.50],
+            "Longueur des nageoires": [189.95, 195.82, 217.19]
+        },
+        "unites": {
+            "Profondeur du bec": "mm",
+            "Longueur du bec": "mm",
+            "Longueur des nageoires": "mm"
+        }
+    },
+    "Renards": {
+        "categories": ["Polaire", "Roux", "Fennec"],
+        "donnees": {
+            "Taille moyenne": [55.0, 65.5, 38.0],
+            "Poids moyen": [4.5, 6.0, 1.2],
+            "Vitesse max": [45.0, 50.0, 32.0]
+        },
+        "unites": {
+            "Taille moyenne": "cm",
+            "Poids moyen": "kg",
+            "Vitesse max": "km/h"
+        }
+    },
+    "Félins": {
+        "categories": ["Lion", "Tigre", "Guépard"],
+        "donnees": {
+            "Poids": [190.0, 220.0, 50.0],
+            "Vitesse max": [80.0, 65.0, 120.0]
+        },
+        "unites": {
+            "Poids": "kg",
+            "Vitesse max": "km/h"
+        }
+    }
+}

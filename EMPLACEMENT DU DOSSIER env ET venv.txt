@@ -3,6 +3,7 @@ LOGICIEL-PyQt6-COURS\DEV_JEUX_PYQT\env
 LOGICIEL-PyQt6-COURS\EXO\BOUTON_INCREMENTE\env
 LOGICIEL-PyQt6-COURS\Program Python MARIO\CRYPTAGE DOSSIER\chiffrement symétrique Fernet ChaCha20\env
 LOGICIEL-PyQt6-COURS\Program Python MARIO\CRYPTAGE FICHIER\chiffrement symétrique Fernet ChaCha20\env
+LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env
 
 
 
