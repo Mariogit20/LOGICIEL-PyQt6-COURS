@@ -1,0 +1,99 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "matplotlib diagram en barre"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Uploading LFS objects: 100% (1/1), 1.1 GB | 107 KB/s, done.
+Enumerating objects: 36, done.
+Counting objects: 100% (36/36), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (32/32), done.
+Writing objects: 100% (32/32), 69.63 MiB | 104.00 KiB/s, done.
+Total 32 (delta 8), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (8/8), completed with 4 local objects.
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File Program Python MARIO/matplotlib DIAGRAM EN BARRE/dist/matp
+lotlib_gemini3_1_pro5.exe is 68.60 MB; this is larger than GitHub's recommended
+maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File
+ Storage - https://git-lfs.github.com.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+   1f7892d..70beae2  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "commande sauvegarde"
+[main 3963a3f] commande sauvegarde
+ 2 files changed, 36 insertions(+)
+ create mode 100644 Program Python MARIO/matplotlib DIAGRAM EN BARRE/EMPLACEMENT
+ DU DOSSIER env.txt
+ create mode 100644 Program Python MARIO/matplotlib DIAGRAM EN BARRE/SAUVEGARDE
+github.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.26 KiB | 646.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+   70beae2..3963a3f  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "commande sauvegarde 2"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "commande sauvegarde 3"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "commande sauvegarde 4"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$
