@@ -1,110 +1,333 @@
-N DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> python -m venv env
+PES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Scripts\Activate.ps1"
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> python matplotlib_gemini3_1_pro5.py                                                                                               
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> python matplotlib_gemini3_1_pro5.py
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pyinstaller --noconsole --onefile --icon="app_icon.png.jpg" --add-data "matplotlib_gemini3_1_pro5.json;." --add-data "app_icon.png.jpg;." matplotlib_gemini3_1_pro5.py
+1497 INFO: PyInstaller: 6.19.0, contrib hooks: 2026.4
+1497 INFO: Python: 3.11.9
+1526 INFO: Platform: Windows-10-10.0.19045-SP0
+1526 INFO: Python environment: D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env
+1529 INFO: wrote D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\matplotlib_gemini3_1_pro5.spec
+1565 INFO: Module search paths (PYTHONPATH):
+['D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Scripts\\pyinstaller.exe',
+ 'C:\\Program Files\\Python311\\python311.zip',
+ 'C:\\Program Files\\Python311\\DLLs',
+ 'C:\\Program Files\\Python311\\Lib',
+ 'C:\\Program Files\\Python311',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE']
+2446 INFO: Appending 'datas' from .spec
+ERROR: Unable to find 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\app_icon.png.jpg' when adding binary and data files.
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pyinstaller --noconsole --onefile --icon="app_icon.png.jpg" --add-data "matplotlib_gemini3_1_pro5.json;." --add-data "app_icon.png;." matplotlib_gemini3_1_pro5.py    
+177 INFO: PyInstaller: 6.19.0, contrib hooks: 2026.4
+177 INFO: Python: 3.11.9
+199 INFO: Platform: Windows-10-10.0.19045-SP0
+199 INFO: Python environment: D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env
+220 INFO: wrote D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\matplotlib_gemini3_1_pro5.spec
+251 INFO: Module search paths (PYTHONPATH):
+['D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Scripts\\pyinstaller.exe',
+ 'C:\\Program Files\\Python311\\python311.zip',
+ 'C:\\Program Files\\Python311\\DLLs',
+ 'C:\\Program Files\\Python311\\Lib',
+ 'C:\\Program Files\\Python311',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE']
+788 INFO: Appending 'datas' from .spec
+ERROR: Unable to find 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\app_icon.png' when adding binary and data files.
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> ls app_icon*
+
+
+    Répertoire : D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE
+
+Mode                 LastWriteTime         Length Name                                                                         
+----                 -------------         ------ ----                                                                         
+-a----         3/14/2026   5:57 PM        6275151 app_icon.png.png                                                             
+
+
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> Rename-Item "app_icon.png.png" "app_icon.png"
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> ls app_icon*    
+                                                                                                                                
+                  
+    Répertoire : D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE
+
+Mode                 LastWriteTime         Length Name                                                                         
+----                 -------------         ------ ----                                                                         
+-a----         3/14/2026   5:57 PM        6275151 app_icon.png                                                                 
+
+
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pyinstaller --noconsole --onefile --icon="app_icon.png.jpg" --add-data "matplotlib_gemini3_1_pro5.json;." --add-data "app_icon.png;." matplotlib_gemini3_1_pro5.py
+187 INFO: PyInstaller: 6.19.0, contrib hooks: 2026.4
+187 INFO: Python: 3.11.9
+187 INFO: Platform: Windows-10-10.0.19045-SP0
+187 INFO: Python environment: D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env
+227 INFO: wrote D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\matplotlib_gemini3_1_pro5.spec
+236 INFO: Module search paths (PYTHONPATH):
+['D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Scripts\\pyinstaller.exe',
+ 'C:\\Program Files\\Python311\\python311.zip',
+ 'C:\\Program Files\\Python311\\DLLs',
+ 'C:\\Program Files\\Python311\\Lib',
+ 'C:\\Program Files\\Python311',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE']
+807 INFO: Appending 'datas' from .spec
+807 INFO: checking Analysis
+807 INFO: Building Analysis because Analysis-00.toc is non existent
+807 INFO: Looking for Python shared library...
+841 INFO: Using Python shared library: C:\Program Files\Python311\python311.dll
+842 INFO: Running Analysis Analysis-00.toc
+842 INFO: Target bytecode optimization level: 0
+842 INFO: Initializing module dependency graph...
+873 INFO: Initializing module graph hook caches...
+1140 INFO: Analyzing modules for base_library.zip ...
+3273 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+3650 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+9604 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+17138 INFO: Caching module dependency graph...
+17232 INFO: Analyzing D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\matplotlib_gemini3_1_pro5.py
+17757 INFO: Processing standard module hook 'hook-numpy.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+20532 INFO: Processing standard module hook 'hook-difflib.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+21838 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+22261 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+23483 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+26349 INFO: Processing standard module hook 'hook-sysconfig.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+26915 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+31023 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+31060 INFO: SetuptoolsInfo: initializing cached setuptools info...
+35366 INFO: Processing standard module hook 'hook-matplotlib.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+36235 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+36768 INFO: Processing pre-safe-import-module hook 'hook-gi.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+37285 INFO: Processing standard module hook 'hook-matplotlib.backend_bases.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+37787 INFO: Processing standard module hook 'hook-PIL.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+38038 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+39112 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+39729 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+42105 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+42377 INFO: Processing standard module hook 'hook-matplotlib.pyplot.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+44869 INFO: Processing standard module hook 'hook-dateutil.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+45133 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+49395 INFO: Processing standard module hook 'hook-matplotlib.backends.backend_qtagg.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+49410 INFO: Processing standard module hook 'hook-matplotlib.backends.qt_compat.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+49928 INFO: hook-matplotlib.backends.qt_compat: selected 'PyQt6' as the only available Qt bindings.
+49943 INFO: Processing standard module hook 'hook-PyQt6.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+50821 INFO: Processing standard module hook 'hook-PyQt6.QtCore.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+55787 INFO: Processing standard module hook 'hook-PyQt6.QtGui.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+71771 INFO: Processing standard module hook 'hook-PyQt6.QtWidgets.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+75761 INFO: Processing module hooks (post-graph stage)...
+75818 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+75819 INFO: Matplotlib backend selection method: automatic discovery of used backends
+76403 INFO: Trying determine the default backend as first importable candidate from the list: ['QtAgg', 'Qt5Agg', 'Gtk4Agg', 'Gtk3Agg', 'TkAgg', 'WxAgg']
+77247 INFO: Selected matplotlib backends: ['QtAgg']
+78504 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+78973 INFO: Performing binary vs. data reclassification (318 entries)
+86106 INFO: Looking for ctypes DLLs
+86289 INFO: Analyzing run-time hooks ...
+86304 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+86346 INFO: Including run-time hook 'pyi_rth_pyqt6.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+86361 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+86425 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+86497 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+86512 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+86541 INFO: Including run-time hook 'pyi_rth_mplconfig.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+86640 INFO: Creating base_library.zip...
+86734 INFO: Looking for dynamic libraries
+90691 INFO: Extra DLL search directories (AddDllDirectory): ['D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyQt6\\Qt6\\bin', 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\numpy.libs']
+90691 INFO: Extra DLL search directories (PATH): ['D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyQt6\\Qt6\\bin']
+95861 INFO: Warnings written to D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\build\matplotlib_gemini3_1_pro5\warn-matplotlib_gemini3_1_pro5.txt
+96011 INFO: Graph cross-reference written to D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\build\matplotlib_gemini3_1_pro5\xref-matplotlib_gemini3_1_pro5.html
+96205 INFO: checking PYZ
+96205 INFO: Building PYZ because PYZ-00.toc is non existent
+96205 INFO: Building PYZ (ZlibArchive) D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\build\matplotlib_gemini3_1_pro5\PYZ-00.pyz
+97255 INFO: Building PYZ (ZlibArchive) D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\build\matplotlib_gemini3_1_pro5\PYZ-00.pyz completed successfully.
+97332 INFO: checking PKG
+97332 INFO: Building PKG because PKG-00.toc is non existent
+97332 INFO: Building PKG (CArchive) matplotlib_gemini3_1_pro5.pkg
+120712 INFO: Building PKG (CArchive) matplotlib_gemini3_1_pro5.pkg completed successfully.
+120757 INFO: Bootloader D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+120757 INFO: checking EXE
+120757 INFO: Building EXE because EXE-00.toc is non existent
+120757 INFO: Building EXE from EXE-00.toc
+120757 INFO: Copying bootloader EXE to D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\dist\matplotlib_gemini3_1_pro5.exe
+121105 INFO: Copying icon to EXE
 Traceback (most recent call last):
   File "<frozen runpy>", line 198, in _run_module_as_main
   File "<frozen runpy>", line 88, in _run_code
-  File "C:\Program Files\Python311\Lib\venv\__main__.py", line 6, in <module>
-    main()
-  File "C:\Program Files\Python311\Lib\venv\__init__.py", line 546, in main
-    builder.create(d)
-  File "C:\Program Files\Python311\Lib\venv\__init__.py", line 76, in create
-    self._setup_pip(context)
-  File "C:\Program Files\Python311\Lib\venv\__init__.py", line 358, in _setup_pip
-    self._call_new_python(context, '-m', 'ensurepip', '--upgrade',
-  File "C:\Program Files\Python311\Lib\venv\__init__.py", line 354, in _call_new_python
-    subprocess.check_output(args, **kwargs)
-  File "C:\Program Files\Python311\Lib\subprocess.py", line 466, in check_output
-    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    stdout, stderr = process.communicate(input, timeout=timeout)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\Python311\Lib\subprocess.py", line 1196, in communicate
-    stdout = self.stdout.read()
-             ^^^^^^^^^^^^^^^^^^
-KeyboardInterrupt
-PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> ^C
-Remove-Item : Impossible de trouver un paramètre positionnel acceptant l'argument « /q ».
-+ ~~~~~~~~~~~~~~~
-    + CategoryInfo          : InvalidArgument : (:) [Remove-Item], ParameterBindingException
-    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
- 
-PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> python -m venv env
-PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> env\scripts\activate
-(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pip install matplotlib PyQt6
-
-Collecting matplotlib
-  Using cached matplotlib-3.10.8-cp311-cp311-win_amd64.whl.metadata (52 kB)
-Collecting PyQt6
-  Downloading pyqt6-6.11.0-cp310-abi3-win_amd64.whl.metadata (2.2 kB)
-Collecting contourpy>=1.0.1 (from matplotlib)
-  Using cached contourpy-1.3.3-cp311-cp311-win_amd64.whl.metadata (5.5 kB)
-Collecting cycler>=0.10 (from matplotlib)
-  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
-Collecting fonttools>=4.22.0 (from matplotlib)
-  Downloading fonttools-4.62.1-cp311-cp311-win_amd64.whl.metadata (119 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 119.8/119.8 kB 155.8 kB/s eta 0:00:00
-Collecting kiwisolver>=1.3.1 (from matplotlib)
-  Using cached kiwisolver-1.5.0-cp311-cp311-win_amd64.whl.metadata (5.2 kB)
-Collecting numpy>=1.23 (from matplotlib)
-  Downloading numpy-2.4.4-cp311-cp311-win_amd64.whl.metadata (6.6 kB)
-Collecting packaging>=20.0 (from matplotlib)
-  Using cached packaging-26.0-py3-none-any.whl.metadata (3.3 kB)
-Collecting pillow>=8 (from matplotlib)
-  Downloading pillow-12.2.0-cp311-cp311-win_amd64.whl.metadata (9.0 kB)
-Collecting pyparsing>=3 (from matplotlib)
-  Using cached pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
-Collecting python-dateutil>=2.7 (from matplotlib)
-  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
-Collecting PyQt6-sip<14,>=13.8 (from PyQt6)
-  Using cached pyqt6_sip-13.11.1-cp311-cp311-win_amd64.whl.metadata (516 bytes)
-Collecting PyQt6-Qt6<6.12.0,>=6.11.0 (from PyQt6)
-  Downloading pyqt6_qt6-6.11.0-py3-none-win_amd64.whl.metadata (552 bytes)
-Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib)
-  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
-Using cached matplotlib-3.10.8-cp311-cp311-win_amd64.whl (8.1 MB)
-Downloading pyqt6-6.11.0-cp310-abi3-win_amd64.whl (6.8 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.8/6.8 MB 92.1 kB/s eta 0:00:00
-Using cached contourpy-1.3.3-cp311-cp311-win_amd64.whl (225 kB)
-Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
-Downloading fonttools-4.62.1-cp311-cp311-win_amd64.whl (2.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 108.0 kB/s eta 0:00:00
-Using cached kiwisolver-1.5.0-cp311-cp311-win_amd64.whl (73 kB)
-Downloading numpy-2.4.4-cp311-cp311-win_amd64.whl (12.6 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 123.1 kB/s eta 0:00:00
-Using cached packaging-26.0-py3-none-any.whl (74 kB)
-Downloading pillow-12.2.0-cp311-cp311-win_amd64.whl (7.1 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 122.9 kB/s eta 0:00:00
-Using cached pyparsing-3.3.2-py3-none-any.whl (122 kB)
-Downloading pyqt6_qt6-6.11.0-py3-none-win_amd64.whl (78.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.3/78.3 MB 149.1 kB/s eta 0:00:00
-Using cached pyqt6_sip-13.11.1-cp311-cp311-win_amd64.whl (54 kB)
-Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
-otlib-3.10.8 numpy-2.4.4 packaging-26.0 pillow-12.2.0 pyparsing-3.3.2 python-dateutil-2.9.0.post0 six-1.17.0
-
-[notice] A new release of pip is available: 24.0 -> 26.0.1
-[notice] To update, run: python.exe -m pip install --upgrade pip
-(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pip freeze > requirements.txt
-(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pip install matplotlib numpy
-
-Requirement already satisfied: matplotlib in d:\python django hopes\github22\logiciel-pyqt6-cours\program python mario\matplotlib diagram en barre\env\lib\site-packages (3.10.8)
-Requirement already satisfied: numpy in d:\python django hopes\github22\logiciel-pyqt6-cours\program python mario\matplotlib diagram en barre\env\lib\site-packages (2.4.4)
-Requirement already satisfied: contourpy>=1.0.1 in d:\python django hopes\github22\logiciel-pyqt6-cours\program python mario\matplotlib diagram en barre\env\lib\site-packages (from matplotlib) (1.3.3)
-Requirement already satisfied: cycler>=0.10 in d:\python django hopes\github22\logiciel-pyqt6-cours\program python mario\matplotlib diagram 
-en barre\env\lib\site-packages (from matplotlib) (0.12.1)
-Requirement already satisfied: fonttools>=4.22.0 in d:\python django hopes\github22\logiciel-pyqt6-cours\program python mario\matplotlib diagram en barre\env\lib\site-packages (from matplotlib) (4.62.1)
-Requirement already satisfied: kiwisolver>=1.3.1 in d:\python django hopes\github22\logiciel-pyqt6-cours\program python mario\matplotlib diagram en barre\env\lib\site-packages (from matplotlib) (1.5.0)
-Requirement already satisfied: packaging>=20.0 in d:\python django hopes\github22\logiciel-pyqt6-cours\program python mario\matplotlib diagram en barre\env\lib\site-packages (from matplotlib) (26.0)
-Requirement already satisfied: pillow>=8 in d:\python django hopes\github22\logiciel-pyqt6-cours\program python mario\matplotlib diagram en 
-barre\env\lib\site-packages (from matplotlib) (12.2.0)
-Requirement already satisfied: pyparsing>=3 in d:\python django hopes\github22\logiciel-pyqt6-cours\program python mario\matplotlib diagram 
-Requirement already satisfied: python-dateutil>=2.7 in d:\python django hopes\github22\logiciel-pyqt6-cours\program python mario\matplotlib 
-diagram en barre\env\lib\site-packages (from matplotlib) (2.9.0.post0)
-Requirement already satisfied: six>=1.5 in d:\python django hopes\github22\logiciel-pyqt6-cours\program python mario\matplotlib diagram en barre\env\lib\site-packages (from python-dateutil>=2.7->matplotlib) (1.17.0)
-(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pip freeze > requirements.txt      
-(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pip freeze > requirements.txt      
-(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pip freeze > requirements.txt      
-(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pip freeze > requirements.txt      
-(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pip freeze > requirements.txt      
-(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pip freeze > requirements.txt      
-(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> python matplotlib_gemini3_1_pro8.py
-
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Scripts\pyinstaller.exe\__main__.py", line 7, in <module>
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\__main__.py", line 231, in _console_script_run
+    run()
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\__main__.py", line 215, in run
+    run_build(pyi_config, spec_file, **vars(args))
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\__main__.py", line 70, in run_build
+    PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs)
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\building\build_main.py", line 1275, in main
+    build(specfile, distpath, workpath, clean_build)
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\building\build_main.py", line 1213, in build
+    exec(code, spec_namespace)
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\matplotlib_gemini3_1_pro5.spec", line 19, in <module>
+    exe = EXE(
+          ^^^^
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\building\api.py", line 675, in __init__
+    self.__postinit__()
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\building\datastruct.py", line 184, in __postinit__
+    self.assemble()
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\building\api.py", line 788, in assemble
+    self._retry_operation(icon.CopyIcons, build_name, self.icon)
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\building\api.py", line 1058, in _retry_operation
+    return func(*args)
+           ^^^^^^^^^^^
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\utils\win32\icon.py", line 206, in CopyIcons
+    srcpath = normalize_icon_type(srcpath, ("exe", "ico"), "ico", config.CONF["workpath"])
+  File "D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\building\icon.py", line 34, in normalize_icon_type
+    raise FileNotFoundError(f"Icon input file {icon_path} not found")
+FileNotFoundError: Icon input file D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\app_icon.png.jpg not found
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pyinstaller --noconsole --onefile --icon="app_icon.png" --add-data "matplotlib_gemini3_1_pro5.json;." --add-data "app_icon.png;." matplotlib_gemini3_1_pro5.py    
+181 INFO: PyInstaller: 6.19.0, contrib hooks: 2026.4
+181 INFO: Python: 3.11.9
+181 INFO: Platform: Windows-10-10.0.19045-SP0
+181 INFO: Python environment: D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env
+181 INFO: wrote D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\matplotlib_gemini3_1_pro5.spec
+220 INFO: Module search paths (PYTHONPATH):
+['D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Scripts\\pyinstaller.exe',
+ 'C:\\Program Files\\Python311\\python311.zip',
+ 'C:\\Program Files\\Python311\\DLLs',
+ 'C:\\Program Files\\Python311\\Lib',
+ 'C:\\Program Files\\Python311',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE']
+761 INFO: Appending 'datas' from .spec
+761 INFO: checking Analysis
+867 INFO: checking PYZ
+926 INFO: checking PKG
+959 INFO: Bootloader D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+959 INFO: checking EXE
+959 INFO: Building EXE because EXE-00.toc is non existent
+959 INFO: Building EXE from EXE-00.toc
+959 INFO: Copying bootloader EXE to D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\dist\matplotlib_gemini3_1_pro5.exe
+1058 INFO: Copying icon to EXE
+1857 INFO: Copying 0 resources to EXE
+2003 INFO: Appending PKG archive to EXE
+2156 INFO: Fixing EXE headers
+12117 INFO: Building EXE from EXE-00.toc completed successfully.
+12186 INFO: Build complete! The results are available in: D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\dist
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> pyinstaller --noconsole --onefile --icon="app_icon.png" --add-data "matplotlib_gemini3_1_pro5.json;." --add-data "app_icon.png;." matplotlib_gemini3_1_pro5.py    
+259 INFO: PyInstaller: 6.19.0, contrib hooks: 2026.4
+262 INFO: Python: 3.11.9
+302 INFO: Platform: Windows-10-10.0.19045-SP0
+303 INFO: Python environment: D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env
+305 INFO: wrote D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\matplotlib_gemini3_1_pro5.spec
+337 INFO: Module search paths (PYTHONPATH):
+['D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Scripts\\pyinstaller.exe',
+ 'C:\\Program Files\\Python311\\python311.zip',
+ 'C:\\Program Files\\Python311\\DLLs',
+ 'C:\\Program Files\\Python311\\Lib',
+ 'C:\\Program Files\\Python311',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages',
+ 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python '
+ 'MARIO\\matplotlib DIAGRAM EN BARRE']
+1221 INFO: Appending 'datas' from .spec
+1222 INFO: checking Analysis
+1223 INFO: Building Analysis because Analysis-00.toc is non existent
+1223 INFO: Looking for Python shared library...
+1223 INFO: Using Python shared library: C:\Program Files\Python311\python311.dll
+1223 INFO: Running Analysis Analysis-00.toc
+1224 INFO: Target bytecode optimization level: 0
+1224 INFO: Initializing module dependency graph...
+1228 INFO: Initializing module graph hook caches...
+1271 INFO: Analyzing modules for base_library.zip ...
+3315 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+3496 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+6760 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+9998 INFO: Caching module dependency graph...
+10101 INFO: Analyzing D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\matplotlib_gemini3_1_pro5.py
+10383 INFO: Processing standard module hook 'hook-numpy.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+11578 INFO: Processing standard module hook 'hook-difflib.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+12047 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+12321 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+12893 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+14571 INFO: Processing standard module hook 'hook-sysconfig.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+14753 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+17122 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+17125 INFO: SetuptoolsInfo: initializing cached setuptools info...
+19832 INFO: Processing standard module hook 'hook-matplotlib.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+20606 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+20834 INFO: Processing pre-safe-import-module hook 'hook-gi.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+21352 INFO: Processing standard module hook 'hook-matplotlib.backend_bases.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+21650 INFO: Processing standard module hook 'hook-PIL.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+21918 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+22662 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+23106 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+24944 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+25127 INFO: Processing standard module hook 'hook-matplotlib.pyplot.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+27467 INFO: Processing standard module hook 'hook-dateutil.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+27792 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+31430 INFO: Processing standard module hook 'hook-matplotlib.backends.backend_qtagg.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+31446 INFO: Processing standard module hook 'hook-matplotlib.backends.qt_compat.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+32121 INFO: hook-matplotlib.backends.qt_compat: selected 'PyQt6' as the only available Qt bindings.
+32125 INFO: Processing standard module hook 'hook-PyQt6.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+33335 INFO: Processing standard module hook 'hook-PyQt6.QtCore.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+38519 INFO: Processing standard module hook 'hook-PyQt6.QtGui.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+57745 INFO: Processing standard module hook 'hook-PyQt6.QtWidgets.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+62503 INFO: Processing module hooks (post-graph stage)...
+62529 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+62530 INFO: Matplotlib backend selection method: automatic discovery of used backends
+63348 INFO: Trying determine the default backend as first importable candidate from the list: ['QtAgg', 'Qt5Agg', 'Gtk4Agg', 'Gtk3Agg', 'TkAgg', 'WxAgg']
+64436 INFO: Selected matplotlib backends: ['QtAgg']
+65063 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+65285 INFO: Performing binary vs. data reclassification (318 entries)
+65395 INFO: Looking for ctypes DLLs
+65598 INFO: Analyzing run-time hooks ...
+65607 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+65614 INFO: Including run-time hook 'pyi_rth_pyqt6.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+65617 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+65620 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks'
+65636 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+65642 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+65649 INFO: Including run-time hook 'pyi_rth_mplconfig.py' from 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+65729 INFO: Creating base_library.zip...
+65779 INFO: Looking for dynamic libraries
+67402 INFO: Extra DLL search directories (AddDllDirectory): ['D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyQt6\\Qt6\\bin', 'D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\numpy.libs']
+67402 INFO: Extra DLL search directories (PATH): ['D:\\PYTHON DJANGO HOPES\\github22\\LOGICIEL-PyQt6-COURS\\Program Python MARIO\\matplotlib DIAGRAM EN BARRE\\env\\Lib\\site-packages\\PyQt6\\Qt6\\bin']
+70150 INFO: Warnings written to D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\build\matplotlib_gemini3_1_pro5\warn-matplotlib_gemini3_1_pro5.txt
+70376 INFO: Graph cross-reference written to D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\build\matplotlib_gemini3_1_pro5\xref-matplotlib_gemini3_1_pro5.html
+70668 INFO: checking PYZ
+70669 INFO: Building PYZ because PYZ-00.toc is non existent
+70669 INFO: Building PYZ (ZlibArchive) D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\build\matplotlib_gemini3_1_pro5\PYZ-00.pyz
+72062 INFO: Building PYZ (ZlibArchive) D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\build\matplotlib_gemini3_1_pro5\PYZ-00.pyz completed successfully.
+72118 INFO: checking PKG
+72118 INFO: Building PKG because PKG-00.toc is non existent
+72119 INFO: Building PKG (CArchive) matplotlib_gemini3_1_pro5.pkg
+98579 INFO: Building PKG (CArchive) matplotlib_gemini3_1_pro5.pkg completed successfully.
+98611 INFO: Bootloader D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+98611 INFO: checking EXE
+98611 INFO: Building EXE because EXE-00.toc is non existent
+98612 INFO: Building EXE from EXE-00.toc
+98612 INFO: Copying bootloader EXE to D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\dist\matplotlib_gemini3_1_pro5.exe
+98792 INFO: Copying icon to EXE
+99758 INFO: Copying 0 resources to EXE
+99759 INFO: Embedding manifest in EXE
+99867 INFO: Appending PKG archive to EXE
+99997 INFO: Fixing EXE headers
+105960 WARNING: Execution of 'set_exe_build_timestamp' failed on attempt #1 / 20: PermissionError(13, 'Permission denied'). Retrying in 0.05 second(s)...
+112591 INFO: Building EXE from EXE-00.toc completed successfully.
+112619 INFO: Build complete! The results are available in: D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\dist
 (env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> 

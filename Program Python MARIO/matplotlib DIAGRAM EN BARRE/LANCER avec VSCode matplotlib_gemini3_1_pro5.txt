@@ -1,0 +1,8 @@
+LANCER avec le NOUVEAU TERMINAL   (   CTRL  J   )    de VISUAL STUDIO CODE (VSCode) le FICHIER     matplotlib_gemini3_1_pro5.py :
+
+
+
+PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> & "d:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env\Scripts\Activate.ps1"
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> python matplotlib_gemini3_1_pro5.py                                                                                               
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> python matplotlib_gemini3_1_pro5.py
+(env) PS D:\PYTHON DJANGO HOPES\github22\LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE> 

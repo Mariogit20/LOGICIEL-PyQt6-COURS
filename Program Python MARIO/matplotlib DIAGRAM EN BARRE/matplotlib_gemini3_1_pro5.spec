@@ -1,19 +1,12 @@
 # -*- mode: python ; coding: utf-8 -*-
-from PyInstaller.utils.hooks import collect_all
-
-datas = []
-binaries = []
-hiddenimports = ['matplotlib.backends.backend_qtagg']
-tmp_ret = collect_all('matplotlib')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 
 
 a = Analysis(
     ['matplotlib_gemini3_1_pro5.py'],
     pathex=[],
-    binaries=binaries,
-    datas=datas,
-    hiddenimports=hiddenimports,
+    binaries=[],
+    datas=[('matplotlib_gemini3_1_pro5.json', '.'), ('app_icon.png', '.')],
+    hiddenimports=[],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -42,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['mon_logo.ico'],
+    icon=['app_icon.png'],
 )

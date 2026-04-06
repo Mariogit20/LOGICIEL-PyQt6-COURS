@@ -16,6 +16,20 @@ from PyQt6.QtWidgets import (QApplication, QMainWindow, QVBoxLayout, QWidget,
                              QComboBox, QLabel, QHBoxLayout, QMessageBox, 
                              QPushButton, QFileDialog, QDialog, QFormLayout, 
                              QLineEdit, QDialogButtonBox)
+from PyQt6.QtGui import QIcon 
+
+# =====================================================================
+# FONCTION POUR GÉRER LES CHEMINS (COMPATIBLE PYINSTALLER)
+# =====================================================================
+def resource_path(relative_path):
+    """ Obtenir le chemin absolu vers la ressource, fonctionne pour le dev et pour PyInstaller """
+    try:
+        # PyInstaller crée un dossier temporaire et stocke le chemin dans _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 # =====================================================================
 # CLASSE : FENÊTRE DE DIALOGUE POUR L'EMAIL
@@ -25,6 +39,11 @@ class DialogueEmail(QDialog):
         super().__init__(parent)
         self.setWindowTitle("Configuration de l'Email")
         self.setMinimumWidth(400)
+
+        # --- AJOUT DE L'ICÔNE SUR LA FENÊTRE DE DIALOGUE ---
+        chemin_icone = resource_path("app_icon.png")
+        self.setWindowIcon(QIcon(chemin_icone))
+        # ---------------------------------------------------
 
         layout = QFormLayout(self)
 
@@ -58,6 +77,11 @@ class FenetrePrincipale(QMainWindow):
         super().__init__()
         self.setWindowTitle("Base de données Animale depuis JSON")
         self.setGeometry(100, 100, 1000, 650)
+
+        # --- AJOUT DE L'ICÔNE SUR LA FENÊTRE PRINCIPALE ---
+        chemin_icone = resource_path("app_icon.png")
+        self.setWindowIcon(QIcon(chemin_icone))
+        # --------------------------------------------------
 
         # --- 1. CHARGEMENT DES DONNÉES ---
         donnees_completes = self.charger_donnees_json("matplotlib_gemini3_1_pro5.json")
