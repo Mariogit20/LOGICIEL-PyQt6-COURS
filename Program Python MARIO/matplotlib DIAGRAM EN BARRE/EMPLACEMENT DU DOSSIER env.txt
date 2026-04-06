@@ -1,0 +1,3 @@
+EMPLACEMENT DU DOSSIER env :
+
+LOGICIEL-PyQt6-COURS\Program Python MARIO\matplotlib DIAGRAM EN BARRE\env
