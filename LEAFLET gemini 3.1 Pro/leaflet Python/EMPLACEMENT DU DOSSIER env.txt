@@ -1,0 +1,4 @@
+EMPLACEMENT DU DOSSIER env :
+
+LOGICIEL-PyQt6-COURS\LEAFLET gemini 3.1 Pro\leaflet Python\env
+
